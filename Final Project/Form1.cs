@@ -31,6 +31,7 @@ namespace Final_Project
         {
             myArray = new PictureBox[2] { pictureBox1, pictureBox2};
             int num = rand.Next(0, myArray.Length);
+            //hi stof
         }
 
         private void Form1_KeyDown_1(object sender, KeyEventArgs e)
