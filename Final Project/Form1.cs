@@ -17,6 +17,7 @@ namespace Final_Project
             InitializeComponent();
         }
         PictureBox[] myArray;
+        Label[] treeArray;
         Random rand = new Random();
 
 
@@ -31,6 +32,9 @@ namespace Final_Project
         {
             myArray = new PictureBox[2] { pictureBox1, pictureBox2};
             int num = rand.Next(0, myArray.Length);
+            treeArray = new Label[20] { label1, label2, label3, label4, label5, label6, label7, label8, label9, label10, label11, label12, label13, label14, label15, label16, label17, label18, label19, label20 };
+            //hi stof
+
         }
 
         private void Form1_KeyDown_1(object sender, KeyEventArgs e)
@@ -46,6 +50,16 @@ namespace Final_Project
                         pictureBox1.Left -= 10;
                     }
 
+                    foreach (Label border in treeArray)
+                    {
+                        if (border.Bounds.IntersectsWith(pictureBox1.Bounds)&& e.KeyCode == Keys.A)
+                        {
+                            pictureBox1.Left += 10;
+
+
+                        }
+                    }
+
                 }
                 else if (e.KeyCode == Keys.D)
                 {
@@ -55,16 +69,48 @@ namespace Final_Project
                     {
                         pictureBox1.Left += 10;
                     }
+                    foreach (Label border in treeArray)
+                    {
+                        if (border.Bounds.IntersectsWith(pictureBox1.Bounds) && e.KeyCode == Keys.D)
+                        {
+                            pictureBox1.Left -= 10;
+
+
+                        }
+                    }
+
                 }
                 else if (e.KeyCode == Keys.W)
                 {
                     //move the insec father from left
                     pictureBox1.Top -= 10;
+
+                    foreach (Label border in treeArray)
+                    {
+                        if (border.Bounds.IntersectsWith(pictureBox1.Bounds) && e.KeyCode == Keys.W)
+                        {
+                            pictureBox1.Top += 10;
+
+
+                        }
+                    }
+
                 }
                 else if (e.KeyCode == Keys.S)
                 {
                     //move the insec father from left
                     pictureBox1.Top += 10;
+
+                    foreach (Label border in treeArray)
+                    {
+                        if (border.Bounds.IntersectsWith(pictureBox1.Bounds) && e.KeyCode == Keys.S)
+                        {
+                            pictureBox1.Top -= 10;
+
+
+                        }
+                    }
+
                 }
                 /*foreach (Label dog in myArray)
                 {
@@ -87,6 +133,7 @@ namespace Final_Project
                     }
 
                 }
+               
             }
         }
     }
