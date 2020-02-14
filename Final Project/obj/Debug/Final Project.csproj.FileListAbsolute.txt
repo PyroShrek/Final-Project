@@ -7,3 +7,12 @@ C:\Users\kristof.kay\Documents\Visual Studio 2019\Final Project\Final Project\ob
 C:\Users\kristof.kay\Documents\Visual Studio 2019\Final Project\Final Project\obj\Debug\Final Project.csproj.GenerateResource.cache
 C:\Users\kristof.kay\Documents\Visual Studio 2019\Final Project\Final Project\obj\Debug\Final Project.exe
 C:\Users\kristof.kay\Documents\Visual Studio 2019\Final Project\Final Project\obj\Debug\Final Project.pdb
+\\ghs-file1.lvjusd.k12.ca.us\Student Data\kyle.rod\Desktop\Final-Project\Final Project\bin\Debug\Final Project.exe.config
+\\ghs-file1.lvjusd.k12.ca.us\Student Data\kyle.rod\Desktop\Final-Project\Final Project\bin\Debug\Final Project.exe
+\\ghs-file1.lvjusd.k12.ca.us\Student Data\kyle.rod\Desktop\Final-Project\Final Project\bin\Debug\Final Project.pdb
+\\ghs-file1.lvjusd.k12.ca.us\Student Data\kyle.rod\Desktop\Final-Project\Final Project\obj\Debug\Final_Project.Form1.resources
+\\ghs-file1.lvjusd.k12.ca.us\Student Data\kyle.rod\Desktop\Final-Project\Final Project\obj\Debug\Final_Project.Properties.Resources.resources
+\\ghs-file1.lvjusd.k12.ca.us\Student Data\kyle.rod\Desktop\Final-Project\Final Project\obj\Debug\Final Project.csproj.GenerateResource.cache
+\\ghs-file1.lvjusd.k12.ca.us\Student Data\kyle.rod\Desktop\Final-Project\Final Project\obj\Debug\Final Project.exe
+\\ghs-file1.lvjusd.k12.ca.us\Student Data\kyle.rod\Desktop\Final-Project\Final Project\obj\Debug\Final Project.pdb
+\\ghs-file1.lvjusd.k12.ca.us\Student Data\kyle.rod\Desktop\Final-Project\Final Project\obj\Debug\Final Project.csprojAssemblyReference.cache
