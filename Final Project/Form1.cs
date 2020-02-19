@@ -30,6 +30,9 @@ namespace Final_Project
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            Form2 f = new Form2();
+            f.ShowDialog();
+
             myArray = new PictureBox[2] { pictureBox1, pictureBox2};
             int num = rand.Next(0, myArray.Length);
             treeArray = new Label[20] { label1, label2, label3, label4, label5, label6, label7, label8, label9, label10, label11, label12, label13, label14, label15, label16, label17, label18, label19, label20 };
@@ -135,6 +138,11 @@ namespace Final_Project
                 }
                
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

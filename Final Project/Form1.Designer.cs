@@ -57,6 +57,7 @@
             this.label25 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -326,12 +327,23 @@
             this.label27.TabIndex = 28;
             this.label27.Text = "label27";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(500, 290);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 29;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Final_Project.Properties.Resources.fatbone;
             this.ClientSize = new System.Drawing.Size(1075, 955);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label27);
             this.Controls.Add(this.label26);
             this.Controls.Add(this.label25);
@@ -403,6 +415,7 @@
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Button button1;
     }
 }
 
