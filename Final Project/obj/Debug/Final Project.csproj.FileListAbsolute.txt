@@ -16,3 +16,4 @@ C:\Users\kristof.kay\Documents\Visual Studio 2019\Final Project\Final Project\ob
 \\ghs-file1.lvjusd.k12.ca.us\Student Data\kyle.rod\Desktop\Final-Project\Final Project\obj\Debug\Final Project.exe
 \\ghs-file1.lvjusd.k12.ca.us\Student Data\kyle.rod\Desktop\Final-Project\Final Project\obj\Debug\Final Project.pdb
 \\ghs-file1.lvjusd.k12.ca.us\Student Data\kyle.rod\Desktop\Final-Project\Final Project\obj\Debug\Final Project.csprojAssemblyReference.cache
+\\ghs-file1.lvjusd.k12.ca.us\Student Data\kyle.rod\Desktop\Final-Project\Final Project\obj\Debug\Final_Project.Form2.resources
