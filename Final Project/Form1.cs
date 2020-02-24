@@ -134,7 +134,10 @@ namespace Final_Project
                         MessageBox.Show("Let me know when your team is a little stronger.");
                         
                     }
+                    if (pictureBox1.Bounds.IntersectsWith(pictureBox4.Bounds))
+                    {
 
+                    }
                 }
                
             }
